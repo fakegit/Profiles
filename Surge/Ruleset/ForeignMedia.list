@@ -1,4 +1,32 @@
 # (ForeignMedia)
+# (Music)
+# > Deezer
+USER-AGENT,Deezer*
+DOMAIN-SUFFIX,deezer.com
+DOMAIN-SUFFIX,dzcdn.net
+# > KKBOX
+DOMAIN-SUFFIX,kkbox.com
+DOMAIN-SUFFIX,kkbox.com.tw
+DOMAIN-SUFFIX,kfs.io
+# > JOOX
+USER-AGENT,WeMusic*
+USER-AGENT,JOOX*
+DOMAIN-SUFFIX,joox.com
+# > Pandora
+USER-AGENT,Pandora*
+DOMAIN-SUFFIX,pandora.com
+# > Spotify
+USER-AGENT,Spotify*
+DOMAIN-SUFFIX,pscdn.co
+DOMAIN-SUFFIX,scdn.co
+DOMAIN-SUFFIX,spotify.com
+DOMAIN-SUFFIX,spoti.fi
+# > TIDAL
+USER-AGENT,TIDAL*
+DOMAIN-SUFFIX,tidal.com
+# > YoutubeMusic
+USER-AGENT,com.google.ios.youtubemusic*
+USER-AGENT,YouTubeMusic*
 # (Video)
 # > All4
 USER-AGENT,All4*
@@ -35,8 +63,8 @@ DOMAIN-SUFFIX,dazn.com
 # > encoreTVB
 USER-AGENT,encoreTVB*
 DOMAIN-SUFFIX,encoretvb.com
-DOMAIN,content.jwplatform.com
-DOMAIN,videos-f.jwpsrv.com
+DOMAIN,edge.api.brightcove.com
+DOMAIN,bcbolt446c5271-a.akamaihd.net
 # > Fox+ & Fox Now
 USER-AGENT,FOX%20NOW*
 USER-AGENT,FOXPlus*
@@ -65,6 +93,11 @@ DOMAIN,s3-ap-southeast-1.amazonaws.com
 DOMAIN-SUFFIX,hulu.com
 DOMAIN-SUFFIX,huluim.com
 DOMAIN-SUFFIX,hulustream.com
+# > ITV
+USER-AGENT,ITV_Player*
+DOMAIN-SUFFIX,itv.com
+DOMAIN-SUFFIX,itvstatic.com
+DOMAIN,itvpnpmobile-a.akamaihd.net
 # > KKTV
 USER-AGENT,KKTV*
 USER-AGENT,com.kktv.ios.kktv*
@@ -81,6 +114,11 @@ DOMAIN-SUFFIX,hulu.jp
 # > LiTV
 DOMAIN-SUFFIX,litv.tv
 DOMAIN,litvfreemobile-hichannel.cdn.hinet.net
+# > My5
+USER-AGENT,My5*
+DOMAIN-SUFFIX,channel5.com
+DOMAIN-SUFFIX,my5.tv
+DOMAIN,d349g9zuie06uo.cloudfront.net
 # > myTV_SUPER
 USER-AGENT,mytv*
 DOMAIN-SUFFIX,mytvsuper.com
@@ -114,7 +152,7 @@ DOMAIN-SUFFIX,pornhubpremium.com
 DOMAIN-SUFFIX,twitch.tv
 DOMAIN-SUFFIX,twitchcdn.net
 DOMAIN-SUFFIX,ttvnw.net
-# > Viu(TV)
+# > ViuTV
 USER-AGENT,Viu*
 USER-AGENT,ViuTV*
 DOMAIN-SUFFIX,viu.com
@@ -129,30 +167,3 @@ USER-AGENT,YouTube*
 DOMAIN-SUFFIX,googlevideo.com
 DOMAIN-SUFFIX,youtube.com
 DOMAIN,youtubei.googleapis.com
-
-# (Music)
-# > Deezer
-USER-AGENT,Deezer*
-DOMAIN-SUFFIX,deezer.com
-DOMAIN-SUFFIX,dzcdn.net
-# > KKBOX
-DOMAIN-SUFFIX,kkbox.com
-DOMAIN-SUFFIX,kkbox.com.tw
-DOMAIN-SUFFIX,kfs.io
-# > JOOX
-USER-AGENT,WeMusic*
-USER-AGENT,JOOX*
-DOMAIN-SUFFIX,joox.com
-# > Pandora
-USER-AGENT,Pandora*
-DOMAIN-SUFFIX,pandora.com
-# > Spotify
-USER-AGENT,Spotify*
-DOMAIN-SUFFIX,pscdn.co
-DOMAIN-SUFFIX,scdn.co
-DOMAIN-SUFFIX,spotify.com
-DOMAIN-SUFFIX,spoti.fi
-IP-CIDR,35.186.224.47/32,no-resolve
-# > TIDAL
-USER-AGENT,TIDAL*
-DOMAIN-SUFFIX,tidal.com
