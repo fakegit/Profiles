@@ -212,7 +212,6 @@ Rule:
 - DOMAIN-SUFFIX,akuai.top,Hijacking
 - DOMAIN-SUFFIX,atplay.cn,Hijacking
 - DOMAIN-SUFFIX,baiwanchuangyi.com,Hijacking
-- DOMAIN-SUFFIX,bayimob.com,Hijacking
 - DOMAIN-SUFFIX,beerto.cn,Hijacking
 - DOMAIN-SUFFIX,beilamusi.com,Hijacking
 - DOMAIN-SUFFIX,benshiw.net,Hijacking
@@ -239,6 +238,7 @@ Rule:
 - DOMAIN-SUFFIX,gouwubang.com,Hijacking
 - DOMAIN-SUFFIX,gzxnlk.com,Hijacking
 - DOMAIN-SUFFIX,haoshengtoys.com,Hijacking
+- DOMAIN-SUFFIX,hyunke.com,Hijacking
 - DOMAIN-SUFFIX,ichaosheng.com,Hijacking
 - DOMAIN-SUFFIX,ishop789.com,Hijacking
 - DOMAIN-SUFFIX,jdkic.com,Hijacking
@@ -343,10 +343,10 @@ Rule:
 # Infamous 声名狼藉
 - DOMAIN-SUFFIX,kuaizip.com,Hijacking
 - DOMAIN-SUFFIX,mackeeper.com,Hijacking
-# > Adobe
+# > Adobe 奥多比
 - DOMAIN-SUFFIX,flash.cn,Hijacking
 - DOMAIN,geo2.adobe.com,Hijacking
-# > CJ Marketing
+# > CJ Marketing 思杰马克丁软件
 - DOMAIN-SUFFIX,4009997658.com,Hijacking
 - DOMAIN-SUFFIX,abbyychina.com,Hijacking
 - DOMAIN-SUFFIX,bartender.cc,Hijacking
@@ -359,6 +359,8 @@ Rule:
 - DOMAIN-SUFFIX,codesoftchina.com,Hijacking
 - DOMAIN-SUFFIX,coreldrawchina.com,Hijacking
 - DOMAIN-SUFFIX,crossoverchina.com,Hijacking
+- DOMAIN-SUFFIX,dongmansoft.com,Hijacking
+- DOMAIN-SUFFIX,earmasterchina.cn,Hijacking
 - DOMAIN-SUFFIX,easyrecoverychina.com,Hijacking
 - DOMAIN-SUFFIX,ediuschina.com,Hijacking
 - DOMAIN-SUFFIX,flstudiochina.com,Hijacking
@@ -372,6 +374,7 @@ Rule:
 - DOMAIN-SUFFIX,keyshot.cc,Hijacking
 - DOMAIN-SUFFIX,kingdeecn.cn,Hijacking
 - DOMAIN-SUFFIX,logoshejishi.com,Hijacking
+- DOMAIN-SUFFIX,luping.net.cn,Hijacking
 - DOMAIN-SUFFIX,mairuan.cn,Hijacking
 - DOMAIN-SUFFIX,mairuan.com,Hijacking
 - DOMAIN-SUFFIX,mairuan.com.cn,Hijacking
@@ -380,6 +383,7 @@ Rule:
 - DOMAIN-SUFFIX,makeding.com,Hijacking
 - DOMAIN-SUFFIX,mathtype.cn,Hijacking
 - DOMAIN-SUFFIX,mindmanager.cc,Hijacking
+- DOMAIN-SUFFIX,mindmanager.cn,Hijacking
 - DOMAIN-SUFFIX,mindmapper.cc,Hijacking
 - DOMAIN-SUFFIX,mycleanmymac.com,Hijacking
 - DOMAIN-SUFFIX,nicelabel.cc,Hijacking
@@ -388,6 +392,7 @@ Rule:
 - DOMAIN-SUFFIX,overturechina.com,Hijacking
 - DOMAIN-SUFFIX,passwordrecovery.cn,Hijacking
 - DOMAIN-SUFFIX,pdfexpert.cc,Hijacking
+- DOMAIN-SUFFIX,photozoomchina.com,Hijacking
 - DOMAIN-SUFFIX,shankejingling.com,Hijacking
 - DOMAIN-SUFFIX,ultraiso.net,Hijacking
 - DOMAIN-SUFFIX,vegaschina.cn,Hijacking
