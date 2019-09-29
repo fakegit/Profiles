@@ -50,7 +50,7 @@ Clash、Kitsunebi、Quantumult(X)、Shadowrocket、Pepi(ShadowRay)、Surge 的�
 
 ### 导入配置教程
 
-- [Kitsunebi配置导入](https://www.notion.so/divineengine/Kitsunebi-f5f298d57a4c4ab88236f141a00524df)
+- [Kitsunebi 配置导入](https://www.notion.so/divineengine/Kitsunebi-f5f298d57a4c4ab88236f141a00524df)
 - [Potatso 配置导入](https://www.notion.so/divineengine/Potatso-494dcc29c7b74977968e7a5d24798efc)
 - [Quantumult 配置导入](https://www.notion.so/divineengine/Quantumult-f8c21f6a4cfb4bf9af633a638b6cb8b8)
 - [Quantumult X 配置导入](https://www.notion.so/divineengine/Quantumult-X-af3223efdcc14789ba0c7a4742f3622a)
@@ -63,9 +63,17 @@ Clash、Kitsunebi、Quantumult(X)、Shadowrocket、Pepi(ShadowRay)、Surge 的�
 
 ### DNS 设置
 
-**如果经常使用的网络没有 DNS 劫持问题，则配置为使用系统 DNS 并追加公共 DNS，如：** `119.29.29.29,223.5.5.5,system`
+**如果经常使用的网络没有 DNS 劫持问题，则配置为使用系统 DNS 并追加公共 DNS，如：**
 
-**如果经常使用的网络存在 DNS 劫持问题，则配置为仅使用公共 DNS，如：**`119.29.29.29,223.5.5.5`
+```
+119.29.29.29,223.5.5.5,system
+```
+
+**如果经常使用的网络存在 DNS 劫持问题，则配置为仅使用公共 DNS，如：**
+
+```
+119.29.29.29,223.5.5.5
+```
 
 #### 为什么没有海外 DNS
 
@@ -139,9 +147,7 @@ Clash、Kitsunebi、Quantumult(X)、Shadowrocket、Pepi(ShadowRay)、Surge 的�
 
 > 4.如何解锁 TikTok？
 
-仅支持 Surge3 和 Quantumult 专业版规则，并且注意：Quantumult 用户需将「更多」里「高级」下的「模块」中选择「TUN + HTTP(Loopback)」。
-
-另外，复写规则默认设置的 TikTok 为日本区，若想切换到其他地区，在软件里的复写设置中将「JP」修改成其他地区英文缩写即可。
+仅支持 Surge 和 Quantumult(X) 专业版规则。另外，复写规则默认设置的 TikTok 为日本区，若想切换到其他地区，在软件里的复写设置中将「JP」修改成其他地区英文缩写即可。
 
 > 5.Apple News 具体怎么使用
 
@@ -157,11 +163,7 @@ Clash、Kitsunebi、Quantumult(X)、Shadowrocket、Pepi(ShadowRay)、Surge 的�
 
 部分「阿里云」节点会导致此问题，如遇此问题主节点换成其他的。
 
-> 8.使用 Quantumult 打开淘宝、微信缓慢，邮件收发异常
-
-将「更多」里「高级」下的「模块」中选择「TUN + HTTP(Loopback)」。
-
-> 9.关于 Speedtest 想直连/代理？
+> 8.关于 Speedtest 想直连/代理？
 
 规则对于 Speedtest 不是绝对的直连也不是绝对的代理，对于国内测速点是直连，对于国外测速点是代理。
 
